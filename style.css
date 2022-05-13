@@ -1,0 +1,37 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #a8dadc;
+}
+
+
+#big-box {
+    background: #a8dadc;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.small-box {
+    text-align: center;
+    background: #f1faee;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    width: 10vw;
+    min-width: 100px;
+    height: 10vw;
+    min-height: 100px;
+    margin: 0;
+    
+}
+
+#reset-button {
+    margin-top: 20px;
+}
+
+h1 {
+    color:brown
+}
